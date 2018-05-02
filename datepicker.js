@@ -199,7 +199,6 @@ onDOMReady(function(){
     var className = allElements[i].className;
     if (className=='datepicker' || className.indexOf('datepicker ') != -1 || className.indexOf(' datepicker') != -1) {
       // Found one! Now lets add a datepicker next to it  
-      console.log(allElements[i]);
       allElements[i].setAttribute('onclick','return showDatePicker("' + allElements[i].id + '")');
     }
   }
