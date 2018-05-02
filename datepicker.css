@@ -12,23 +12,23 @@
   text-align:center;
 }
 .datepickerdropdown table {
-  border-collapse:collapse;
+  color: #fff;
+  font-size:14px;
+  font-weight: 700;
   margin:auto;
 }
 .datepickerdropdown input {
-  font-family:monospace;
-  border:1px solid #888;
+  color: #fff;
+  font-size:14px;
+  font-weight: 700;
+  border:1px solid #ccc;
   border-radius:3px;
   margin:1px;
   padding:2px 5px;
   text-align:center;
 }
 .datepickerdropdown table input[type=button] {
-  background-color: #a7e6e8;
-  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, .3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 75%, transparent 75%, transparent);
-  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, .3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 75%, transparent 75%, transparent);
-  background-image: -ms-linear-gradient(-45deg, rgba(255, 255, 255, .3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 75%, transparent 75%, transparent);
-  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, .3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 75%, transparent 75%, transparent);
+  background-color: transparent;
   width:2em;
 }
 
@@ -51,7 +51,7 @@
   border:1px solid red;
 }
 .datepickerdropdown input.othermonth {
-  color:#aaa;
+  color:#ccc;
   border:1px solid #bbb;
 }
 .monthDsp
