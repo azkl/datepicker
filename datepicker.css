@@ -1,8 +1,13 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One:400|Roboto:400,400italic,700);
+
 .datepickerdropdown {
-  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAD6CAIAAADvIroEAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAOwQAADsEBuJFr7QAAABh0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjM2qefiJQAAAIhJREFUOE99w4cRgDAQBLHtvzKyyWByhjKo4E8z4vs+3vc1P8+Det836nVdqOd5oh7HgXXfd9Rt21DXdUVdlgV1nmes0zShjuOIOgwDqvcete97rF3XobZti9o0DWpd16hVVaGWZYm1KArUPM9RnXOoWZahpmmKNUkS1DiOUaMoQg3DEDUIAow/RjJ3qB92TU4AAAAASUVORK5CYII=);
-  border:1px solid #888;
-  border-radius:5px;
-  padding:10px;
+  font-family: Roboto;
+  background:#749d9e; 
+  background: -webkit-linear-gradient(#749d9e, #b3a68b)!important; 
+  background: -o-linear-gradient(#749d9e, #b3a68b)!important; 
+  background: -moz-linear-gradient(#749d9e, #b3a68b)!important; 
+  background: linear-gradient(#749d9e, #b3a68b)!important;
+  padding:10px; 
   position:absolute;
   text-align:center;
 }
@@ -19,34 +24,35 @@
   text-align:center;
 }
 .datepickerdropdown table input[type=button] {
+  background-color: #a7e6e8;
+  background-image: -webkit-linear-gradient(-45deg, rgba(255, 255, 255, .3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(-45deg, rgba(255, 255, 255, .3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 75%, transparent 75%, transparent);
+  background-image: -ms-linear-gradient(-45deg, rgba(255, 255, 255, .3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(-45deg, rgba(255, 255, 255, .3) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .3) 50%, rgba(255, 255, 255, .3) 75%, transparent 75%, transparent);
   width:2em;
 }
-.datepickerdropdown input[type=button] {
-  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAeCAIAAABi9+OQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjM2qefiJQAAAElJREFUGFeNwwEGACEQQNF//6MlSRSRSMMkY86wdk+wj4e78zaz772Xcw6qioiw92atxZyTMQa9d1pr1FoppZBzJqVEjJEQwt8PXeRLuM/peRgAAAAASUVORK5CYII=);
-}
+
 .datepickerdropdown input[type=button]:hover {
-  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAeCAIAAABi9+OQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjM2qefiJQAAAFpJREFUGFdjePfuAgMIv3lzCoxfvTrK8OLFAYbnz/cyPHmyleHx480MDx+uY7h3bxnDnTsLGW7enMVw7dpkhqtXJzJcutTFcOFCG8O5c00MZ87UMZw6VUksBgDwaURPl4Jv2AAAAABJRU5ErkJggg==);
+  background:#ffa5b3;
 }
 .datepickerdropdown input[type=button]:active {
-  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAeCAIAAABi9+OQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjM2qefiJQAAAFhJREFUGFdjOHWqkuHMmTqGc+eaGC5caGO4dKmL4erViQzXrk1muHlzFsOdOwsZ7t1bxvDw4TqGx483Mzx5spXh+fO9DC9eHGB49eoow5s3p8D43bsLpGAAr0NKhZpZNgcAAAAASUVORK5CYII=);
   padding:2px 4px 2px 6px;
 }      
 .datepickerdropdown input.selected {
-  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAeCAIAAABi9+OQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAAAlwSFlzAAAOwwAADsMBx2+oZAAAABh0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjM2qefiJQAAAEBJREFUGFdj+P//P8P//5+A+CkQXwfiU0C8B4jXA/EiIJ4CxO1AXAnEOUAcB8SBQOwCxGZArAnE0kDMB8QMxGIAwnRFxCnPkL8AAAAASUVORK5CYII=);
+  background:#aeb8f9;
 }
 .datepickerdropdown input[type=text] {
   background:#fff;
+  font-size: 13px;
   color:#000;
 }
 .datepickerdropdown input.today {
+  background:#a3f7a8;
   border:1px solid red;
 }
 .datepickerdropdown input.othermonth {
   color:#aaa;
   border:1px solid #bbb;
-}
-.datepickershow img {
-  border:0;
 }
 .monthDsp
 {
@@ -55,6 +61,5 @@ font-size:9px;
 }
 .daysRow
 {
-font-family:sans-serif;
-font-size:11px;
+font-size:12px;
 }
