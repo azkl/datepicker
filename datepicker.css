@@ -39,7 +39,7 @@
   padding:2px 4px 2px 6px;
 }      
 .datepickerdropdown input.selected {
-  background:#aeb8f9;
+  background:#6989c6 !important;
 }
 .datepickerdropdown input[type=text] {
   background:#fff;
@@ -47,7 +47,8 @@
   color:#000;
 }
 .datepickerdropdown input.today {
-  background:#a3f7a8;
+  background:#88c669 !important;
+  color: #000;
   border:1px solid red;
 }
 .datepickerdropdown input.othermonth {
